@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: constellation-manager
-          image: sumedhacha/cm:<<build_number>>
+          image: sumedhacha/qacm:<<build_number>>
           ports:
             - containerPort: 8080
          
