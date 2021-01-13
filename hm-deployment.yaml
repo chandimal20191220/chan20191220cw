@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: health-monitor
-          image: sumedhacha/hm:<<build_number>>
+          image: sumedhacha/prodhm:<<build_number>>
           ports:
             - containerPort: 8081
          
