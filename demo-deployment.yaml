@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: demoservice
-          image: sumedhacha/demoservice
+          image: sumedhacha/demoservice:<<build_number>>
           ports:
             - containerPort: 8080
 
